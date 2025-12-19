@@ -1,0 +1,97 @@
+body
+{
+    font-family: sans-serif;
+    background-color: white;
+}
+.headerr
+{
+    text-align: center;
+    color: #1f2937;
+}
+.welcome
+{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.quixk
+{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #374151;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+    list-style: none;
+    font-size: 20px;
+    padding:15px ; 
+    width: fit-content;
+    margin: 0;
+}
+.navbar ul
+
+{
+padding: 0;
+margin: 0;
+height: fit-content;
+}
+
+.navv
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: #e5e7eb;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+.navbar li{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}
+.par
+{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(1,300px);
+    gap: 30px;
+    width: fit-content;
+    padding-left: 0;
+}
+.par li
+{
+    border-radius: 40px;
+}
+.par
+{
+    list-style: none;
+    margin: 0;
+}
+.chi1,
+.chi2,
+.chi3
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.contain
+{
+    display: flex;
+    justify-content: center;
+}
