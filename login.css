@@ -1,0 +1,67 @@
+.all
+{
+    height: fit-content;
+    width: fit-content;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head
+{
+    text-align: center;
+}
+form {
+    border-radius: 25px;
+    background-color:#0F0F0F;
+    padding: 40px;
+   
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    color: white;
+    
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+    
+}
+input[type="password"]{
+   border-radius: 15px;
+   border: none;
+   width: 20rem;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+}
+input[type="text"]{
+   border-radius: 15px;
+   border: none;
+   width: 20rem;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+}
+button{
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: #D4AF37;
+    display: flex;
+    justify-content: center;  
+    width: 100px; 
+}
+.buttonn
+{
+   
+    display: flex;
+    justify-content: center;
+}
+
